@@ -7,7 +7,7 @@ This folder contains practice files.  These files are created while learning to 
 To learn and use JavaScript
 
 ## Drivers:
-To create and build search tools leveraging existing free APIs, database-backed, interactive web applications
+To create and build interactive web applications
 
 ## Technology: 
 JavaScript, JQuery, HyperText Markup Language, Sublime Text Editor, Terminal, Unix Command Line, Web browsers, Git, GitHub, CSS
