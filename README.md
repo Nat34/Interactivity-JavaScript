@@ -4,9 +4,10 @@ Client-Side Topic: JavaScript
 This folder contains practice files.  These files are created while learning to use JavaScript.  This scripting language is used to create dynamic applications that respond to user input.  HTML and CSS files in use were created for [Structure-HTML](https://github.com/Nat34/Structure-HTML.git) and [Style-CSS](https://github.com/Nat34/Style-CSS.git) projects.
 
 ## Project: 
-To create 
+To learn and use JavaScript
 
-## Drivers: 
+## Drivers:
+To create and build search tools leveraging existing free APIs, database-backed, interactive web applications
 
 ## Technology: 
 JavaScript, JQuery, HyperText Markup Language, Sublime Text Editor, Terminal, Unix Command Line, Web browsers, Git, GitHub, CSS
