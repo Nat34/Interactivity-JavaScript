@@ -1,2 +1,2 @@
-# Interacivity-JavaScript
+# Interactivity-JavaScript
 Client-Side Topic: JavaScript
