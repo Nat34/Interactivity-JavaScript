@@ -13,7 +13,9 @@ To create and build interactive web applications
 JavaScript, JQuery, HyperText Markup Language, Sublime Text Editor, Terminal, Unix Command Line, Web browsers, Git, GitHub, CSS
 
 ## Resources: 
-[Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Mozilla Developer Network (MDN), W3C HTML Validation Service, Learning Web App Development text, Lorem Ipsum, W3C CSS Validation Service, Firefox Developer Tools, 
+[Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Mozilla Developer Network (MDN), W3C HTML Validation Service, Learning Web App Development text, Lorem Ipsum, W3C CSS Validation Service, Firefox Developer Tools,
+
+## Task List
 
 My First Interactive App
 - [ ] Structure
