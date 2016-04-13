@@ -1,7 +1,10 @@
 # Interactivity-JavaScript
 Client-Side Topic: JavaScript
 
-This folder contains practice files.  These files are created while learning to use JavaScript.  This scripting language is used to create dynamic applications that respond to user input.  HTML and CSS files in use were created for [Structure-HTML](https://github.com/Nat34/Structure-HTML.git) and [Style-CSS](https://github.com/Nat34/Style-CSS.git) projects.
+This folder contains practice files.  These files are created while learning to use JavaScript.  JavaScript is a scripting language used to create dynamic applications that respond to user input.  HTML and CSS files in use were created for [Structure-HTML](https://github.com/Nat34/Structure-HTML.git) and [Style-CSS](https://github.com/Nat34/Style-CSS.git) projects.  These practice files and documentation (notes) are the result of learning (by doing) with the following text:
+```
+"Learning Web App Development by Semmy Purewal (O'Reilly). Copyright 2014 Semmy Purewal, 978-1-449-37019-0."
+```
 
 ## Project: 
 To learn and use JavaScript
