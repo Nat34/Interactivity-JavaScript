@@ -35,7 +35,7 @@ header p {
 	
 main {
 	overflow: auto;
-	padding; 30px 0;
+	padding: 30px 0;
 	border-bottom: 1px solid darkslategray;
 }
 
