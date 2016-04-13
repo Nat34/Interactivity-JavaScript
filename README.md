@@ -22,7 +22,7 @@ JavaScript, JQuery, HyperText Markup Language, Sublime Text Editor, Terminal, Un
 
 My First Interactive App
 - [x] Structure
-- [ ] Style
+- [x] Style
 - [ ] Handling click events
 - [ ] Dynamically manipulating the DOM
 
