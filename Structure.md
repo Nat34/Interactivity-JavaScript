@@ -4,9 +4,7 @@
 ###### HTML contains:
 * `<script>` elements allow you to associate external files with your HTML
 * `<script>`elements typically point to JavaScript files
-* always requires a closing tag
-
-technical note
+* `<script>` always requires a closing tag
 * `<script>` tags are placed in the <body> element instead of the <head> because
 the browser displays the page top-down fashion
 
