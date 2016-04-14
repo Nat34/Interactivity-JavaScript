@@ -24,7 +24,9 @@ My First Inter*active* App
 - [x] Structure
 - [x] Style
 - [x] Handling click events
-- [ ] Dynamically manipulating the DOM
+- [x] Dynamically manipulating the DOM
+- [ ] Squashing a bug
+- [ ] User exerience and desire
 
 JQuery Generalizations
 - [ ] Setup
