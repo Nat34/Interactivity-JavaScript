@@ -20,10 +20,10 @@ JavaScript, JQuery, HyperText Markup Language, Sublime Text Editor, Terminal, Un
 
 ## Task List
 
-My First Interactive App
+My First Inter*active* App
 - [x] Structure
 - [x] Style
-- [ ] Handling click events
+- [x] Handling click events
 - [ ] Dynamically manipulating the DOM
 
 JQuery Generalizations
