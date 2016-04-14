@@ -15,7 +15,7 @@ var main = function () {
 
 $(document).ready(main);
 ```
-# Review: What is happening?
+###### Review: What is happening?
 * variable declaration and assignment
 * variable name `$new_comment`
 * `<p>` paragraph element as JQuery object
