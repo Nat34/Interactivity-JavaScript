@@ -2,7 +2,10 @@ var main = function () {
 	"use strict";
 
 	$(".comment-input button").on("click", function (event) {
-		$(".comments").append("<p>this is a new comment</p>")
+		var $new_comment = $("<p>"); 
+
+		$new_comment.text("this is a new comment");
+		$(".comments").append("<p>this is a new comment</p>");
 	});
 };
 
@@ -18,12 +21,20 @@ Interactivity - Handling click events
 * When the user [event for which we are listening on], then [function] occurs. event then function
 * the user does something and the page reacts: inter**activity**
 
-Things:
+New things:
 event listener
 $ function
 appends
+.on
+.append
+.text
 
 Removed:
 console.log("Hello, World!");
+*/
+
+/* Interactivity - Dynamically manipulating the DOM 
+
+* create a variable
 */
 
