@@ -78,8 +78,8 @@ main {
   border-radius: 5px;
 }
 
-.comments p:nth-child(even) {
-    background: lavender;
+.comments p:nth-child(even) { /*comments section using alternating colors acheived using nth-child pseudoclass*/
+    background-color: rgb(192, 206, 171)
 }
 
 .comments p:nth-child(odd) {
