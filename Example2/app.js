@@ -1,18 +1,31 @@
-var main = function () {
+var main = function () { /* entry point for the execution */
 	"use strict";
 
-	$(".comment-input button").on("click", function (event) {
+	$(".comment-input button").on("click", function (event) { /*interactivity: when the user 'clicks' something happens*/
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	$new_comment = $("<p>").text($(".comment-input input").val());
-		
-		$(".comments").append($new_comment);
-		
-	}
+		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
+			$(".comments").append($new_comment);
+			$(".comment-input input").val(""); /*call the val method of the JQuery object with an explicit value, ie. send empty string ("") to the val method*/
+		}
+	});
 };
 
 $(document).ready(main);
+
+/*
+
+Interactivity - Basic JavaScript App Skelton
+
+var main = function () {
+	"use strict";
+
+1. Defines a global function called `main` -entry point for the execution
+2. uses JQuery to set up the execution of the `main` function once the HTML document is fully loaded and ready
+
+
+*/
 
 /* 
 Interactivity - Handling click events
@@ -32,7 +45,7 @@ appends
 .append
 .text
 refactor
-val function
+.val() function, i.e.value
 
 Removed:
 console.log("Hello, World!");
@@ -70,7 +83,4 @@ bug: JQuery program adds an empty p element to the DOM
 squash: insert a check to see if the content of the input box is empty before doing anything with it.
 * `if` statement: `if ($(".comment-input input").val() !== "") {`
 if: confirms the content of the input box does *not* equal the empty string
-* NOTICE: variable declaration moved above the if statement. keep variables declared at the top of your function definitions.
-
-
-
+* NOTICE: variable declaration moved above the if statement. keep variables declared at the top of your function definitions.*/
