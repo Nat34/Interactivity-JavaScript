@@ -29,3 +29,8 @@ $(document).ready(main);
 
 ###### Review: what are we doing? 
 * We're going to make the content of the input box the text value of our new paragraph element.
+
+```
+var $new_comment = $("<p>").text($(".comment-input input").val());
+```
+
