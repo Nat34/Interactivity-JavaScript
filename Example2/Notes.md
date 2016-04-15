@@ -124,7 +124,7 @@ $(document).ready(main)
 ```
 ###### What's going up there: review
 * interactivity: when the user 'clicks' something happens
-* creates <p> as a JQuery object
+* creates `<p>` as a JQuery object
 * call the `val` method of the JQuery object with an explicit value, ie. send empty string ("") to the `val` method
 * listen for the keypress event
 * use the event local variable (keycode)
