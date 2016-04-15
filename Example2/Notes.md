@@ -78,4 +78,25 @@ $(document).ready(main);
 ```
 var $new_comment = $("<p>").text($(".comment-input input").val());
 ```
+###### Squashing the bug
 
+* bug: JQuery program adds an empty p element to the DOM
+* squash: insert a check to see if the content of the input box is empty before doing anything with it.
+* `if` statement: 
+`if ($(".comment-input input").val() !== "") {`
+* if: confirms the content of the input box does *not* equal the empty string
+* NOTICE: variable declaration moved above the if statement. keep variables declared at the top of your function definitions.
+
+###### Clearing out the inbox 
+* send the empty string to val method
+
+###### Making the Enter key work as expected
+* add an additional event handler that listens for the keypress event on the input element itself
+
+```
+$(".comment-input input").on("keypress", function (event) {
+```
+
+* This is the `input` element: `$(".comment-input input")`
+* This is the event: `on("keypress"`
+* Listener is setup to listen for the keypress event
