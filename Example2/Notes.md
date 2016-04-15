@@ -100,3 +100,26 @@ $(".comment-input input").on("keypress", function (event) {
 * This is the `input` element: `$(".comment-input input")`
 * This is the event: `on("keypress"`
 * Listener is setup to listen for the keypress event
+
+```
+var main = function () { /* entry point for the execution */
+	"use strict";
+
+	$(".comment-input button").on("click", function (event) { /*interactivity: when the user 'clicks' something happens*/
+		var $new_comment;
+
+		if ($(".comment-input input").val() !== "") {
+		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
+			$(".comments").append($new_comment);
+			$(".comment-input input").val(""); /*call the val method of the JQuery object with an explicit value, ie. send empty string ("") to the val method*/	
+		}
+	});
+
+	$(".comment-input input").on("keypress", function (event) {
+		console.log("this is the keyCode" + event.keyCode);
+	});
+};
+
+$(document).ready(main)
+```
+
