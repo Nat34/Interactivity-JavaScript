@@ -34,8 +34,8 @@ $(".comment-input button").on("click", function (event) {
 - refactor
 - `.val()` function, i.e.value
 - user experience problems: clearing the input box, making the Enter key work *as expected*
-- C in keyCode is capitalized. if variable name has multiple words, capitalize each word after the first
-`+` sign concatentates: ie `"this is the keyCode" + event.keyCode`
+- C in keyCode is capitalized. if variable name has multiple words, capitalize each word after the first word
+- `+` sign concatentates: ie `"this is the keyCode" + event.keyCode`
 
 ###### Interactivity - Dynamically manipulating the DOM 
 
@@ -102,16 +102,16 @@ $(".comment-input input").on("keypress", function (event) {
 * Listener is setup to listen for the keypress event
 
 ```
-var main = function () { /* entry point for the execution */
+var main = function () { /* entry point for the execution
 	"use strict";
 
-	$(".comment-input button").on("click", function (event) { /*interactivity: when the user 'clicks' something happens*/
+	$(".comment-input button").on("click", function (event) { 
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
+		 	$new_comment = $("<p>").text($(".comment-input input").val()); 
 			$(".comments").append($new_comment);
-			$(".comment-input input").val(""); /*call the val method of the JQuery object with an explicit value, ie. send empty string ("") to the val method*/	
+			$(".comment-input input").val("");	
 		}
 	});
 
@@ -122,4 +122,9 @@ var main = function () { /* entry point for the execution */
 
 $(document).ready(main)
 ```
-
+###### What's going up there: review
+* interactivity: when the user 'clicks' something happens
+* creates <p> as a JQuery object
+* call the `val` method of the JQuery object with an explicit value, ie. send empty string ("") to the `val` method
+* listen for the keypress event
+* use the event local variable (keycode)
