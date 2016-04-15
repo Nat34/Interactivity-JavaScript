@@ -12,7 +12,7 @@ var main = function () { /* entry point for the execution */
 	});
 
 	$(".comment-input input").on("keypress", function (event) {
-				console.log("hello, world!");
+				console.log("this is the keyCode" + event.keyCode);
 	});
 };
 
@@ -57,6 +57,8 @@ appends
 refactor
 .val() function, i.e.value
 user experience problems: clearing the input box, making the Enter key work *as expected*
+C in keyCode is capitalized. if variable name has multiple words, capitalize each word after the first
+`+` sign concatentates: ie `"this is the keyCode" + event.keyCode`
 
 Removed:
 console.log("Hello, World!");
