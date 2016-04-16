@@ -5,8 +5,10 @@ var main = function () {
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	var $new_comment = $("<p>").text($(".comment-input input").val());
+		 	$new_comment = $("<p>").text($(".comment-input input").val());
+		 	$new_comment.hide();
 			$(".comments").append($new_comment);
+			$new_comment.fadeIn();
 			$(".comment-input input").val(""); 	
 		}
 	});
@@ -16,8 +18,10 @@ var main = function () {
 
 		if (event.keyCode === 13) {
 			if ($(".comment-input input").val() !== "") {
-			 	var $new_comment = $("<p>").text($(".comment-input input").val());
+			 	$new_comment = $("<p>").text($(".comment-input input").val());
+			 	$new_comment.hide();
 				$(".comments").append($new_comment);
+				$new_comment.fadeIn();
 				$(".comment-input input").val(""); 
 			}
 		}
@@ -58,7 +62,7 @@ $(".comment-input button").on("click", function (event) {
 New things:
 event (event handler that listens) listener
 $ function
-appends
+appends (i.e appending to the DOM - important concept)
 .on
 .append
 .text
@@ -116,4 +120,14 @@ $(".comment-input input").on("keypress", function (event) {
 This is the `input` element: `$(".comment-input input")`
 This is the event: `on("keypress"`
 Listener is setup to listen for the keypress event
+
+Fading in our new comment
+
+* Every JQuery element has a `fadeIn` method built in
+* `hide` method on the element before appending to DOM, place before `$(".comments").append($new_comment);`
+* `$new_comment.hide();` this is the `hide` method
+* `fadeIn` method on the element, remmember, first letter of second word in multiple word variable name is Capitalized
+* `$new_comment.fadeIn();` 
+
+
 */
