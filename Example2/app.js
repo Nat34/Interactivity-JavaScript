@@ -1,11 +1,11 @@
-var main = function () {
+var main = function () { /*entry point for the execution*/
 	"use strict";
 
 	var addCommentFromInputBox = function () {
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	$new_comment = $("<p>").text($(".comment-input input").val());
+		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
 		 	$new_comment.hide();
 			$(".comments").append($new_comment);
 			$new_comment.fadeIn();
@@ -13,14 +13,14 @@ var main = function () {
 		}
 	};
 
-	$(".comment-input button").on("click", function (event) { 
-		addCommentFromInputBox();
+	$(".comment-input button").on("click", function (event) { /*interactivity..when the user 'clicks' something happens*/
+		addCommentFromInputBox(); /*call the function in each of the event listens*/
 
 	});
 
 	$(".comment-input input").on("keypress", function (event) { 
 		if (event.keyCode === 13) {
-			addCommentFromInputBox();
+			addCommentFromInputBox(); 
 		}
 	});
 };
@@ -131,4 +131,5 @@ Refactoring for simplicity
 * DRY (Dont Repeat Yourself) principle
 * If cutting and pasting RED FLAG
 * abtract the duplicate code as a reusable function
+* call the function in each of the event listens
 */
