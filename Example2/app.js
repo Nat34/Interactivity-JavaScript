@@ -1,11 +1,11 @@
-var main = function () { /*entry point for the execution*/
+var main = function () { //  entry point for the execution
 	"use strict";
 
-	var addCommentFromInputBox = function () {
+	var addCommentFromInputBox = function () { // declaring a variable to store the function and then define the function
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
+		 	$new_comment = $("<p>").text($(".comment-input input").val()); // creates <p> as a JQuery object
 		 	$new_comment.hide();
 			$(".comments").append($new_comment);
 			$new_comment.fadeIn();
@@ -13,8 +13,8 @@ var main = function () { /*entry point for the execution*/
 		}
 	};
 
-	$(".comment-input button").on("click", function (event) { /*interactivity..when the user 'clicks' something happens*/
-		addCommentFromInputBox(); /*call the function in each of the event listens*/
+	$(".comment-input button").on("click", function (event) { //  interactivity..when the user 'clicks' something happens
+		addCommentFromInputBox(); // call the function in each of the event listens
 
 	});
 
@@ -132,4 +132,5 @@ Refactoring for simplicity
 * If cutting and pasting RED FLAG
 * abtract the duplicate code as a reusable function
 * call the function in each of the event listens
+* do this by declaring a variable to 
 */
