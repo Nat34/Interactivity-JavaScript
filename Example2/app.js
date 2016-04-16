@@ -1,18 +1,26 @@
-var main = function () { /* entry point for the execution */
+var main = function () {
 	"use strict";
 
-	$(".comment-input button").on("click", function (event) { /*interactivity: when the user 'clicks' something happens*/
+	$(".comment-input button").on("click", function (event) { 
 		var $new_comment;
 
 		if ($(".comment-input input").val() !== "") {
-		 	$new_comment = $("<p>").text($(".comment-input input").val()); /* creates <p> as a JQuery object */
+		 	var $new_comment = $("<p>").text($(".comment-input input").val());
 			$(".comments").append($new_comment);
-			$(".comment-input input").val(""); /*call the val method of the JQuery object with an explicit value, ie. send empty string ("") to the val method*/	
+			$(".comment-input input").val(""); 	
 		}
 	});
 
 	$(".comment-input input").on("keypress", function (event) {
-				console.log("this is the keyCode" + event.keyCode);
+		var $new_comment;
+
+		if (event.keyCode === 13) {
+			if ($(".comment-input input").val() !== "") {
+			 	var $new_comment = $("<p>").text($(".comment-input input").val());
+				$(".comments").append($new_comment);
+				$(".comment-input input").val(""); 
+			}
+		}
 	});
 };
 
@@ -20,7 +28,7 @@ $(document).ready(main);
 
 /*
 
-Interactivity - Basic JavaScript App Skelton
+Interactivity - Basic JavaScript App SkelEton
 
 var main = function () {
 	"use strict";
@@ -63,6 +71,7 @@ C in keyCode is capitalized. if variable name has multiple words, capitalize eac
 Removed:
 console.log("Hello, World!");
 $(".comments").append("<p>this is a new comment</p>");
+console.log("this is the keyCode" + event.keyCode);
 
 Interactivity - Dynamically manipulating the DOM 
 
