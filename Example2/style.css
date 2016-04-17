@@ -60,7 +60,7 @@ main {
   	padding: 3px;
 	border-radius: 5px;
   	color: ivory;
-	background: olivedrab;
+	background: pink;
 	cursor: pointer;
 	font-size: 1.5em;
 	margin-left: 5px;
@@ -79,11 +79,11 @@ main {
 }
 
 .comments p:nth-child(even) { /*comments section using alternating colors acheived using nth-child pseudoclass*/
-    background-color: rgb(192, 206, 171)
+    background-color: lightyellow;
 }
 
 .comments p:nth-child(odd) {
-    background: gainsboro;
+    background: lightblue;
 }
 
 /*footer*/
