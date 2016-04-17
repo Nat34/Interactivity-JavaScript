@@ -29,6 +29,9 @@ $(document).ready(main);
 
 /*
 
+Comments
+* // this is a single-line comment, /* This is a multiline
+
 Selectors
 
 *Think of JQuery selectors as CSS selectors that return DOM elements we can manipulate in our JavaScript
