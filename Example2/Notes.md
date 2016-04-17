@@ -128,3 +128,19 @@ $(document).ready(main)
 * call the `val` method of the JQuery object with an explicit value, ie. send empty string ("") to the `val` method
 * listen for the keypress event
 * use the event local variable (keycode)
+
+###### Fading in our new comment
+
+* Every JQuery element has a `fadeIn` method built in
+* `hide` method on the element before appending to DOM, place before `$(".comments").append($new_comment);`
+* `$new_comment.hide();` this is the `hide` method
+* `fadeIn` method on the element, remmember, first letter of second word in multiple word variable name is Capitalized
+* `$new_comment.fadeIn();` 
+
+###### Refactoring for simplicity
+
+* DRY (Dont Repeat Yourself) principle
+* If cutting and pasting RED FLAG
+* abtract the duplicate code as a reusable function
+* call the function in each of the event listens
+* do this by declaring a variable to store the function and then defining the function 

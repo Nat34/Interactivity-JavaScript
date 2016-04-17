@@ -29,8 +29,8 @@ My First Inter*active* App
 - [x] Refactoring for simplicity
 
 JQuery Generalizations
-- [ ] Setup
-- [ ] Comments
-- [ ] Selectors
+- [x] Setup
+- [x] Comments
+- [x] Selectors
 - [ ] DOM Manipulation
 - [ ] Events and Asynchronicity
