@@ -11,4 +11,4 @@ the browser displays the page top-down fashion
 ###### JQuery
 * Client-side library
 * `<script>` tag loads JQuery from `http://code.jquery.com`, a content delivery network
-* JQuery not kept on local machin
+* JQuery not kept on local machine
