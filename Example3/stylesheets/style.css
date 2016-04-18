@@ -1,4 +1,7 @@
 div {
-	color: yellow;
-	font-size: 15.2em;
+	color: blue;
+}
+
+div.content {
+	color: blue;
 }
