@@ -29,8 +29,6 @@ $(document).ready(main);
 
 /*
 
-Comments
-* // this is a single-line comment, /* This is a multiline
 
 Selectors
 
@@ -40,3 +38,4 @@ Selectors
 * Not all JQuery selectors are identical to CSS selectors
 * JQuery has many pseudoclasses and pseudoelements not available in CSS
 * Certain CSS identifiers have to be represented differently when used in JQuery
+*/
