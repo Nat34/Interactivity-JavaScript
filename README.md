@@ -33,7 +33,7 @@ JQuery Generalizations
 - [x] Comments
 - [x] Selectors
 - [x] DOM Manipulation
-- [ ] Events and Asynchronicity
+- [x] Events and Asynchronicity
 
 JavaScript Generalizations
 - [ ] Variables and Types
