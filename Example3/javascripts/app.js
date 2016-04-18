@@ -8,7 +8,7 @@ var $newParagraphElement = $("<p>"); //create a new element
 	
 	$newParagraphElement.text("this is a paragraph");
 	$("footer").append($newParagraphElement); //poetic...
-	$newParagraphElement.empty();
+	
 
 //DOM Manipulation: removing an element
 
@@ -28,17 +28,20 @@ var $contentExample1 = $("<div>Hello, World!</div>").hide();
 	$("body").append($contentExample1);
 	$contentExample1.slideDown(2000);
 	$contentExample1.addClass("div");
+	$contentExample1.empty();
 
 //Callbacks: functions executed later as arguments
 
-var $content = $("<div.content>Hello, World!</div>").hide();
-var $moreContent =$("<div.content>Goodbye World!</div>").hide();
+var $content = $("<div>Hello, World!</div>").hide();
+var $moreContent =$("<div>Goodbye World!</div>").hide();
 	$("body").append($content);
-	$content.slideDown(2000);
-	$content.addClass("div.content");
+	$content.slideDown(2000, function () {
+	$content.addClass("div");
 	$("body").append($moreContent);
 	$moreContent.fadeIn();
-	$moreContent.addClass("div.content");
+	$moreContent.addClass("div");
+
+});
 };
 	
 $(document).ready(main);
