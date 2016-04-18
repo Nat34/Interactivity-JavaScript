@@ -1,20 +1,20 @@
-# JavaScript Generalizations
+## JavaScript Generalizations
 
 Client-Side Topic: JavaScript
 
-## Project: 
+### Project: 
 To learn basic aspects of the language and interact with Firefox Developer Tools
 
-## Drivers:
+### Drivers:
 To build complex web applications
 
-## Technology: 
+### Technology: 
 JavaScript, Web Browser, Developer Tools, text editor, Markdown
 
-## Resources: 
+### Resources: 
 [Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Firefox Developer Tools
 
-### JavaScript Generalizations
+#### Variables and Types
 * variables can hold any data of any type `integers, strings, floats (#s with decimals)`
 * variables do not have to be declared to hold specific types
 
