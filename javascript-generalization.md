@@ -14,12 +14,7 @@ JavaScript, Web Browser, Developer Tools, text editor, Markdown
 ## Resources: 
 [Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Firefox Developer Tools
 
-JavaScript Generalizations
-- [x] Variables and Types
+### JavaScript Generalizations
+* variables can hold any data of any type `integers, strings, floats (#s with decimals)`
+* variables do not have to be declared to hold specific types
 
-* variables can hold any data of any type `integers, strings, floats (decimals)'
-
-- [ ] Functions
-- [ ] Selection
-- [ ] Interation (a favorite!)
-- [ ] Arrays (Glorious, glorious arays!)
