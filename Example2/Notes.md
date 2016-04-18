@@ -163,14 +163,14 @@ var main = function () {
 	$newParagraphElement.text("this is a paragraph");
 	$("footer").append($newParagraphElement);
 ```
-##### What's goin on up there?
+###### What's goin on up there?
 * `var main = function () {` //  entry point for the execution
 * `var $newUL = $("<ul>");` //create a new ul element
 * `var $newParagraphElement = $("<p>");` //create a new element
 * `$newParagraphElement.text("this is a paragraph");` //add text to `<p>` element
-* 
-##### These new elements are alllll flooooatttting in space right now until...
-* `$("footer").append($newParagraphElement);` //poetic...
+
+###### These new elements are alllll flooooatttting in space right now until!
+* `$("footer").append($newParagraphElement);` //poetic!
 * We can add it `<p>` to the page `index.html` by selecting the element to which we want to append it `footer`
-and then calling the append function `.append` on the JQuery object `$newParagraphElement` ...poetic *smile*
+and then calling the append function `.append` on the JQuery object `$newParagraphElement` :blush:
 
