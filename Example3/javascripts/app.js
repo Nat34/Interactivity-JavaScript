@@ -1,11 +1,16 @@
 var main = function () { //  entry point for the execution
 	"use strict";
 
+//DOM Manipulation: adding an element	
+
 var $newUL = $("<ul>"); //create a new ul element
 var $newParagraphElement = $("<p>"); //create a new element
 	
 	$newParagraphElement.text("this is a paragraph");
 	$("footer").append($newParagraphElement); //poetic...
+	$newParagraphElement.empty();
+
+//DOM Manipulation: removing an element
 
 var $listItemOne = $("<li>").text("this is the first list item"); // using the .text function call to add text
 var $listItemTwo = $("<li>").text("second list item");
@@ -17,12 +22,24 @@ var $listItemThree = $("<li>").text("OMG third list item");
 	$("main").append($newUL); //poetic... //use remove function on selector, removes second list item
 	$newUL.empty(); //delete all children of an element
 
-var $content = $("<div>Hello, World!</div>").hide();
-	$("body").append($content);
-	$content.slideDown(15000);
-	$content.addClass("div");
+//Events and Asychronicity and JQuery Manipulating CSS
 
-}
+var $contentExample1 = $("<div>Hello, World!</div>").hide();
+	$("body").append($contentExample1);
+	$contentExample1.slideDown(2000);
+	$contentExample1.addClass("div");
+
+//Callbacks: functions executed later as arguments
+
+var $content = $("<div.content>Hello, World!</div>").hide();
+var $moreContent =$("<div.content>Goodbye World!</div>").hide();
+	$("body").append($content);
+	$content.slideDown(2000);
+	$content.addClass("div.content");
+	$("body").append($moreContent);
+	$moreContent.fadeIn();
+	$moreContent.addClass("div.content");
+};
 	
 $(document).ready(main);
 
