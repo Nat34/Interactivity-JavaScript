@@ -32,5 +32,12 @@ JQuery Generalizations
 - [x] Setup
 - [x] Comments
 - [x] Selectors
-- [ ] DOM Manipulation
+- [x] DOM Manipulation
 - [ ] Events and Asynchronicity
+
+JavaScript Generalizations
+- [ ] Variables and Types
+- [ ] Functions
+- [ ] Selection
+- [ ] Interation (a favorite!)
+- [ ] Arrays (Glorious, glorious arays!)
