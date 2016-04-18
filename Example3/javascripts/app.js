@@ -16,6 +16,12 @@ var $listItemThree = $("<li>").text("OMG third list item");
 	$newUL.append($listItemThree);
 	$("main").append($newUL); //poetic...
 	$("ul li:nth-child(2)").remove(); //use remove function on selector, removes second list item
+	$newUL.empty(); //delete all children of an element
+
+var $content = $("<div>Hello, World!</div>").hide();
+	$("body").append($content);
+	$content.slideDown(5000);
+	$content.addClass("div");
 
 }
 	
