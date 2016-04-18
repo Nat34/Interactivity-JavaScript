@@ -144,3 +144,13 @@ $(document).ready(main)
 * abtract the duplicate code as a reusable function
 * call the function in each of the event listens
 * do this by declaring a variable to store the function and then defining the function 
+
+###### JQuery Generalizations
+* DOM Manipulations
+* CSS selectors as JQuery selectors: `$("h1");`
+* * Use `$` operator to create an element `var $newUL = $("<p>");` for example
+* Instead of sending in a selector `$("h1);`, use tag: `$("<p>")`
+* Use a function (`.text` for example) to add text to the `<p>` element
+* `$("footer").append($newParagraphElement);`
+* We can add it `<p>` to the page `index.html` by selecting the element to which we want to append it `footer`
+and then calling the append function `.append` on the JQuery object `$newParagraphElement` ..this is poetic
