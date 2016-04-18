@@ -36,7 +36,7 @@ JQuery Generalizations
 - [x] Events and Asynchronicity
 
 JavaScript Generalizations
-- [ ] Variables and Types
+- [x] Variables and Types
 - [ ] Functions
 - [ ] Selection
 - [ ] Interation (a favorite!)
