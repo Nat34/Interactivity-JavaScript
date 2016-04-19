@@ -70,7 +70,9 @@ $(document).ready(main);
 * `if` statement: block of code should only be executed if some condition is `true`
 * `else` statement: allows us to do something different if the condition is `false`
 * `if-else-if` pattern to do multiple mutually exclusive things depending on different conditions
-* use the `&& AND` `|| OR` `! NOT` operators: 
+* use the `&& AND` `|| OR` `! NOT` operators
+* single `=` represents an assignment statement
+* triple `===` represents a comparison that returns `true` or `false` if the left and right sides of the expression are equivalent
 
 ```
 var count = 101;
@@ -78,4 +80,57 @@ if (count > 100) {
 console.log("the count is bigger than 100);
 }
 ```
+#### Iteration
+* Iterative structures are used to shorten lines of repetative code into more compact, but equivalent expressions.
+* doing things multiple times with the `for` loop
+* looping structure: `initiat
+* for (int; test; update) {
+	statements
+}
 
+###### original code
+
+```
+// print the first 100 numbers
+console.log(0);
+console.log(1);
+//...
+console.log(99);
+console.log(100);
+```
+###### code expressed using a for loop
+
+```
+var num;
+	for (num = 0; num <= 100; num = num + 1) {
+	console.log(num);
+}
+```
+
+###### remainder operator %
+
+```
+var i;
+	for (i = 0; i < 10; i = i + 2) {
+	if (i%2 === 0){
+		console.log(i);
+	}
+}
+```
+```
+var num;
+var fizz = "Fizz";
+var buzz = "Buzz";
+var fizzbuzz = "FizzBuzz";
+
+for (num = 0; num <= 100; num = num + 1) {
+	if (num%3 === 0) {
+		console.log(fizz);
+	} else if (num%5 === 0) {
+		console.log(buzz);
+	} else if (num%3 === 0 && num%5 === 0) {
+		console.log(fizzbuzz);
+	} else {
+		console.log(num);
+	}
+}
