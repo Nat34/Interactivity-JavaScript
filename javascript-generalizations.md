@@ -108,6 +108,7 @@ var num;
 ```
 
 ###### remainder operator %
+*FizzBuzz Problem* 
 
 ```
 var i;
@@ -134,3 +135,54 @@ for (num = 0; num <= 100; num = num + 1) {
 		console.log(num);
 	}
 }
+```
+```
+var num;
+var fizz = "Fizz";
+var buzz = "Buzz";
+var fizzbuzz = "FizzBuzz";
+
+for (num = 0; num <= 100; num = num + 1) {
+	if (num%3 === 0) {
+		console.log(fizz);
+	} else if (num%5 === 0) {
+		console.log(buzz);
+	} else if (num = num%3 || num%5) {
+		console.log(fizzbuzz);
+	} else {
+		console.log(num);
+	}
+}
+```
+```
+var num;
+var fizz = "Fizz";
+var buzz = "Buzz";
+var fizzbuzz = "FizzBuzz";
+
+for (num = 1; num <= 100; num = num + 1) {
+	if (num%3 === 0 && num%5 === 0) {
+	   console.log(fizzbuzz);
+	} else {
+           console.log(num);
+        }
+}
+```
+```
+var num;
+var fizz = "Fizz";
+var buzz = "Buzz";
+var fizzbuzz = "FizzBuzz";
+
+for (num = 1; num <= 100; num = num + 1) {
+	if (num%3 === 0 && num%5 === 0) {
+		console.log(fizzbuzz);
+	} else if (num%3 === 0) {
+		console.log (fizz);
+	} else if (num%5 === 0) {
+		console.log(buzz);
+	} else {
+		console.log(num):
+	}
+}
+```
