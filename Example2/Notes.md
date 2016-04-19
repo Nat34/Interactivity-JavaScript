@@ -174,3 +174,8 @@ var main = function () {
 * We can add it `<p>` to the page `index.html` by selecting the element to which we want to append it `footer`
 and then calling the append function `.append` on the JQuery object `$newParagraphElement` :blush:
 
+###### Functions
+
+
+
+
