@@ -134,7 +134,7 @@ $(document).ready(main)
 * Every JQuery element has a `fadeIn` method built in
 * `hide` method on the element before appending to DOM, place before `$(".comments").append($new_comment);`
 * `$new_comment.hide();` this is the `hide` method
-* `fadeIn` method on the element, remmember, first letter of second word in multiple word variable name is Capitalized
+* `fadeIn` method on the element, remember, first letter of second word in multiple word variable name is Capitalized
 * `$new_comment.fadeIn();` 
 
 ###### Refactoring for simplicity
@@ -144,6 +144,7 @@ $(document).ready(main)
 * abtract the duplicate code as a reusable function
 * call the function in each of the event listens
 * do this by declaring a variable to store the function and then defining the function 
+* pulling it all together: [app.js](https://github.com/Nat34/Interactivity-JavaScript/blob/master/Example2/app.js)
 
 ###### JQuery Generalizations
 
