@@ -168,6 +168,7 @@ for (num = 1; num <= 100; num = num + 1) {
         }
 }
 ```
+###### Solution
 ```
 var num;
 var fizz = "Fizz";
@@ -182,7 +183,7 @@ for (num = 1; num <= 100; num = num + 1) {
 	} else if (num%5 === 0) {
 		console.log(buzz);
 	} else {
-		console.log(num):
+		console.log(num);
 	}
 }
 ```
