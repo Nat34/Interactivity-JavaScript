@@ -41,24 +41,27 @@ var $moreContent =$("<div>Goodbye World!</div>").hide();
 	$moreContent.fadeIn();
 	$moreContent.addClass("div");
 
-});
+//Functions
+
+var sayHello = function () {
+	console.log("Hello, World!")
+}
+
+sayHello();
+
+	});
 };
 	
 $(document).ready(main);
 
-/*DOM Manipulation
+/*
 
-###### Recap
-* CSS selectors as JQuery selectors: $("h1");
-
-###### Manipulation: Adding elements to the DOM
-* Use `$` operator to create an element `var $newUL = $("<p>");` for example
-* Instead of sending in a selector `$("h1);`, use tag: `$("<p>")`
-* Use a function (`.text` for example) to add text to the `<p>` element
-
-`$("footer").append($newParagraphElement);`
-* "we can add it (<p>) to the page(index.html) by selecting the element to which we want to append it("footer")
-and then calling the append function (.append) on the JQuery object ($newParagraphElement)" ..this is poetic
 
 
 */
+
+
+
+//Selection
+
+
