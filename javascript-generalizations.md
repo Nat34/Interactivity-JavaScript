@@ -36,11 +36,11 @@ turbo();
 ```
 ###### What's goin on up there?
 * define a function and store it in a variable called `turbo`
-* execute the function in the `turbo` variable `tubro();`
+* execute the function in the `turbo` variable `turbo();`
 
 ##### inputs and outputs
 * inputs are referred to as arguments or parameters
-* specified inside the parentheses of the function definition
+* inputs are specified inside the parentheses of the function definition
 * outputs are often referred to as the return value and always preceded by the keyword *return*
 
 ```
@@ -69,4 +69,13 @@ $(document).ready(main);
 #### Selection
 * `if` statement: block of code should only be executed if some condition is `true`
 * `else` statement: allows us to do something different if the condition is `false`
+* `if-else-if` pattern to do multiple mutually exclusive things depending on different conditions
+* use the `&& AND` `|| OR` `! NOT` operators: 
+
+```
+var count = 101;
+if (count > 100) {
+console.log("the count is bigger than 100);
+}
+```
 
