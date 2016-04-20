@@ -204,6 +204,17 @@ for (num = 1; num <= 100; num = num + 1) {
 * index into the arrays to get elements `console.log(greetings[1]);`
 * indexing for arrays starts at 0 and ends at one less than the length of the array
 * one can set individual elements of the array by using the same indexing method `greetings[3] = "bonjour";` changes `salut` to `bonjour`
+* arrays can grow and shrink dynamically using the `push` function
+
+```
+var fruit = [];
+
+fruit.push("apple");
+fruit.push("orange");
+console.log(fruit);
+
+//=> ["apple", "orange"]
+```
 
 * print elements of the array using the `length` property of the array to build a continuation condition for a `for` loop
 
@@ -226,4 +237,5 @@ greetings.forEach(function (element) {
 
 * this removes the need to maintain an extra variable such as `index` 
 * removing a variable declaration will make code less error prone
+
 
