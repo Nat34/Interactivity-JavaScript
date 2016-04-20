@@ -197,10 +197,22 @@ for (num = 1; num <= 100; num = num + 1) {
 
 ``` var greetings = ["hello", "namaste", "hola", "salut", "aloha"];```
 
-1. create array literal by using the square brackets `[]`
+1. declare array literal by using the square brackets `[]`
 2. list elements separated by commas
 
 * array elements can be strings, integers..
 * index into the arrays to get elements `console.log(greetings[1]);`
 * indexing for arrays starts at 0 and ends at one less than the length of the array
 * one can set individual elements of the array by using the same indexing method `greetings[3] = "bonjour";` changes `salut` to `bonjour`
+
+* print elements of the array using the `length` property of the array to build a continuation condition for a `for` loop
+
+```
+var greetings = ["hello", "namaste", "hola", "salut", "aloha"];
+var index;
+
+for (index = 0; index < greetings.length; index = index + 1) {
+	console.log(greetings[index]);
+}
+```
+`forEach` loop attached to each array
