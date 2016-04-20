@@ -215,4 +215,15 @@ for (index = 0; index < greetings.length; index = index + 1) {
 	console.log(greetings[index]);
 }
 ```
-`forEach` loop attached to each array
+
+* `forEach` loop attached to each array, which takes in a function accepting each element
+
+```
+greetings.forEach(function (element) {
+	console.log(element);
+}
+```
+
+* this removes the need to maintain an extra variable such as `index` 
+* removing a variable declaration will make code less error prone
+
