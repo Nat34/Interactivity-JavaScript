@@ -108,7 +108,11 @@ var num;
 ```
 
 ###### remainder operator %
-*FizzBuzz Problem* 
+* yields the remainder from integer division
+`5%2` evaluates to `1` because `5/2` is `2` with a remainder of `1`
+* `%` operator can check for divisibility by 2 (which tells us the number is even)
+
+**FizzBuzz Problem**
 
 ```
 var i;
