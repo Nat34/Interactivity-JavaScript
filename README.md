@@ -27,6 +27,7 @@ My First Inter*active* App
 - [x] Making the Enter key work as expected
 - [x] Fading in our new comment
 - [x] Refactoring for simplicity
+- [ ] Using JSLint to Identify Potential Problems
 
 JQuery Generalizations
 - [x] Setup
