@@ -1,0 +1,88 @@
+body {
+	background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+h1 {
+	font-family: 'Droid-Sans', sans-serif;
+	float: left;
+	width: 570px;
+}
+
+h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*links*/
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+main .left {
+	float: left;
+	width: 570px;
+}
+
+main .right {
+	float: right;
+	width: 285px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+/* The Grid
+Defines a styling grid over the content
+Basic approach to design layouts
+Fixed width design: content remains centered at same width regardless of browser window resizing
+Fixed width design: not responsive
+`min-width` property: hides remaining part of the page 
+from view if browser is resized to a viewport smaller than 885px 
+
+Goal: content centered and fixed at 855px wide
+855px is divisible by 3 (columns are roughly 2/3 to 1/3 wide)
+
+Possible solution:
+Add max-width rule to ruleset styling of the header, main and footer.
+Set the margin on the body to auto*/
