@@ -37,7 +37,7 @@ JQuery Generalizations
 
 JavaScript Generalizations
 - [x] Variables and Types
-- [ ] Functions
-- [ ] Selection
-- [ ] Interation (a favorite!)
-- [ ] Arrays (Glorious, glorious arays!)
+- [x] Functions
+- [x] Selection
+- [x] Interation
+- [x] Arrays
