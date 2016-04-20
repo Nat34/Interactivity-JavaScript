@@ -54,14 +54,6 @@ sayHello();
 	
 $(document).ready(main);
 
-/*
 
-
-
-*/
-
-
-
-//Selection
 
 
