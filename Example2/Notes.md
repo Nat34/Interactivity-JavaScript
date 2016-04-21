@@ -20,7 +20,7 @@ $(".comment-input button").on("click", function (event) {
 };
 ```
 * action: attaching an *event listener* to the DOM element (.comment-input button) referenced in the call to the function
-* Jquery: target elements in the DOM using CSS selectors
+* Jquery: target elements in the DOM **using CSS selectors**
 * JavaScript: manipulate elements in the DOM
 * When the user clicks the +, print "Hello, World!" to the console
 * When [event for which we are listening on] first, then [function] occurs. event then function
