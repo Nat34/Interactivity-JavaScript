@@ -26,3 +26,18 @@ var main = function () {
 * `$("footer").append($newParagraphElement);` //poetic!
 * We can add it `<p>` to the page `index.html` by selecting the element to which we want to append it `footer`
 and then calling the append function `.append` on the JQuery object `$newParagraphElement` :blush:
+
+###### Manipulating Content
+* use the `parent` function to select the parent of a JQuery object
+* use the `is` function to test a selector against the current JQuery object
+
+```
+// test whether the parents of the $me JQuery object
+// is the first child of its parent
+if ($me.parent().is(":first-child")) {
+	console.log("MY PARENT IS A FIRST CHILD!!");
+} else {
+	console.log("my parent is a not a first child")
+}
+```
+

@@ -1,4 +1,4 @@
-var main = function (){
+/*var main = function (){
 	"use strict";
 
 		//declare a variable to hold the function
@@ -26,7 +26,7 @@ var main = function (){
 	});
 };
 
-$(document).ready(main);
+$(document).ready(main);*/
 
 //DRY principle violation
 /*
@@ -37,3 +37,21 @@ $(document).ready(main);
 
 
 */
+/* refactoring the code using a loop*/
+
+var main = function
+	"use strict";
+
+var tabNumber;
+
+	for (tabNumber = 1; tabNumber <=3; tabNumber++) {
+		var tabSelector = ".tabs a:nth-child(" + tabNumber +") span";
+		$(tabSelector).on("click", function (event){
+			$(".tabs spans").removeClass("active");
+			$(event.target).addClass("active");
+			return false;
+		});
+	}
+};
+
+$(document).ready(main);
