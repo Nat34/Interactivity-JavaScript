@@ -239,7 +239,8 @@ greetings.forEach(function (element) {
 * removing a variable declaration will make code less error prone
 
 ###### Arithmetic Operators
-| Operator        | Description           | Example
-| + |:Addition:| j + 12:|
+| Operator        | Description           |  Example  |
+| ------------- |:-------------:| -----:|
+|  +  |  Addition  |  j + 12  |
 
 
