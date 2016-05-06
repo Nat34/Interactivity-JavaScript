@@ -1,4 +1,4 @@
-###### Interactivity - Basic JavaScript App SkelEton
+###### Interactivity - Basic JavaScript App Skeleton
 
 ```
 var main = function () {
