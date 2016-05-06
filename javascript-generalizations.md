@@ -238,13 +238,21 @@ greetings.forEach(function (element) {
 * this removes the need to maintain an extra variable such as `index` 
 * removing a variable declaration will make code less error prone
 
-###### Arithmetic Operators
+###### Arithmetic Operators, Assignment Operators, Comparison Operators, Logical Operators
 * used to perform mathematics
+* used to assign values to variables
+* used(generally) inside a construct such as an `if` statement where you need to compare to two items
 
 | Operator        | Description           |  Example  |
 | ------------- |:-------------:| -----:|
 |  %  | Modulus (division remainer) | j % 12 |
 |  ++  | Increment | ++j |
 |  --  | Decrement | --j |
+
+| Operator        | Description           |  Equivalent to  |
+| ------------- |:-------------:| -----:|
+| +=   | j += 2 | j = j + 2 |
+| -=   | j -= 2 | j = j - 2 |
+| *=   | j += 2 | j = j * 2 |
 
 
