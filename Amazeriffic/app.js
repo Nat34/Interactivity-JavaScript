@@ -37,10 +37,11 @@ $(document).ready(main);*/
 
 
 */
-/* refactoring the code using a loop*/
+/* refactoring the code using a loop
 
-var main = function
+var main = function () {
 	"use strict";
+
 
 var tabNumber;
 
@@ -52,6 +53,49 @@ var tabNumber;
 			return false;
 		});
 	}
+};
+
+$(document).ready(main); */
+
+/*refactoring using a forEach loop*/
+
+var main = function () {
+    "use strict";
+
+    var toDos = [
+    	"To do 4",
+    	"To do 3",
+    	"To do 2",
+    	"To do 1"
+    	];
+
+    //forEach takes a function as an argument and calls it for each element of the array
+	//create a click handler for this element
+
+	    $(".tabs a span").toArray().forEach(function (element) { 
+		    $(element).on("click", function () {
+			var $element = $(element),
+				$content;
+
+			$(".tabs a span").removeClass("active");
+			$element.addClass("active");
+			$("main .content").empty();
+
+			if ($element.parent().is(":nth-child(1)")) {
+				console.log("FIRST TAB CLICKED!");
+			} else if ($element.parent().is(":nth-child(2)")) {
+				$content = $("<ul>");
+				toDos.forEach(function (todo) {
+					$content.append($("<li>").text(todo));
+				});
+				$("main .content").append($content);
+			} else if ($element.parent().is(":nth-child(3)")) {
+				console.log("THIRD TAB CLICKED!");
+			}
+
+			return false;
+		});
+	});
 };
 
 $(document).ready(main);
