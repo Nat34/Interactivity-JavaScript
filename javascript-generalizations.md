@@ -12,7 +12,7 @@ To build complex web applications
 JavaScript, Web Browser, Developer Tools, text editor, Markdown, Web 
 
 ### Resources: 
-[Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Firefox Developer Tools
+[Learning Web App Development](https://github.com/semmypurewal/LearningWebAppDev), Firefox Developer Tools, [JSLint](http://jslint.com/),
 
 #### Variables and Types
 * variables can hold any data of any type `integers, strings, floats (#s with decimals)`
@@ -237,5 +237,9 @@ greetings.forEach(function (element) {
 
 * this removes the need to maintain an extra variable such as `index` 
 * removing a variable declaration will make code less error prone
+
+###### Arithmetic Operators
+| Operator        | Description           | Example
+| + |:Addition:| j + 12:|
 
 
