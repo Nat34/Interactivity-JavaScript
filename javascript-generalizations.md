@@ -243,7 +243,7 @@ greetings.forEach(function (element) {
 
 | Operator        | Description           |  Example  |
 | ------------- |:-------------:| -----:|
-|  %  | Modulus (division remainer) | j % 12 //=> 0 |
+|  %  | Modulus (division remainer) | j % 12 |
 |  ++  | Increment | ++j |
 |  --  | Decrement | --j |
 
