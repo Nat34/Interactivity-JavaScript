@@ -239,8 +239,12 @@ greetings.forEach(function (element) {
 * removing a variable declaration will make code less error prone
 
 ###### Arithmetic Operators
+* used to perform mathematics
+
 | Operator        | Description           |  Example  |
 | ------------- |:-------------:| -----:|
-|  +  |  Addition  |  j + 12  |
+|  %  | Modulus (division remainer) | j % 12 //=> 0 |
+|  ++  | Increment | ++j |
+|  --  | Decrement | --j |
 
 
